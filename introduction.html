@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <title>About me</title>
+    <script type="text/javascript">
+      function showImage(){
+      document.getElementById('loadingImage').style.visibility="visible";
+      }
+    </script>
+    </head>
+  <body bgcolor="#E09181">
+        <div id="wrapper" style="width:100%; text-align:center">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="introduction.html">About me</a>
+        <h1> This is my friend, Stuart.</h1>    
+        <img src="images/stuart.jpg" alt="download"onmouseover="this.src='images/sexyStuart.gif';" onmouseout="this.src= 'images/stuart.jpg';" height ="150"/>
+        <br>
+        <h1> My dog is my favorite person.</h1>
+        <img src="images/dog1.jpg" alt="dog1"onmouseover="this.src='images/img1Left.jpg';" onmouseout="this.src= 'images/dog1.jpg';" height ="300"/>
+        <img src="images/dog3.jpg" alt="dog3"onmouseover="this.src='images/img1Middle.jpg';" onmouseout="this.src= 'images/dog3.jpg';" height ="300"/> 
+        <img src="images/dog2.jpg" alt="dog2"onmouseover="this.src='images/img2Right.jpg';" onmouseout="this.src= 'images/dog2.jpg';" height ="300"/>
+        <br>
+        <input type="button" value="Click me to see something amazing!" onclick="showImage();"/>  
+        </div>
+        <div id="wrapper" style="width:100%; text-align:center">
+        <img id="loadingImage" src="images/giphy.gif" style="visibility:hidden" height="300"/></div>
+        </body>
+    </html>
